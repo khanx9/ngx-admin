@@ -44,6 +44,24 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
+    title: 'Jobs',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: 'List',
+        link: '/pages/matching/job-list',
+      },
+      {
+        title: 'Job Detail',
+        link: '/pages/matching/job-detail',
+      },
+      {
+        title: 'Job Register',
+        link: '/pages/matching/job-register',
+      },
+    ],
+  },
+  {
     title: 'Forms',
     icon: 'edit-2-outline',
     children: [
